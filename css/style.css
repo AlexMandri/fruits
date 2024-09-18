@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+
+}
+html{
+    background-color: #339933 ;
+}
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right:10%;
+    margin-right: 10px;
+    color: white;
+}
+nav h1{
+    
+    padding: .8rem;
+}
+nav section a{
+    padding: .8rem;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+main{
+    display: flex;
+    padding-left: 10%;
+    padding-right:10%;
+    height: 80vh;
+    column-gap: 15px;
+    /* flex-direction: column; */
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* verificar melhor */
+}
+h2{
+    font-size: 2rem;
+    /* color: gray; */
+}
+h1, .column-left h2{
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+.column-left{
+    background-color: white;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: .8rem;
+    width: 50rem;
+}
+
+/* ===========pesquisa============== */
+.search{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+    
+}
+.search input{
+    width: 20rem;
+    border: none;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.search button {
+    background-color: #000000;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1rem;
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search button:hover{
+    background-color: #339933;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+/* ================imagem================ */
+/* .fruit-img{
+    display: flex;
+    height: 300px;
+    background-color: #e45b07;
+    background-image: url(../img/pitaia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: none;
+    border-radius: 0.6rem; 
+    
+} */
+#img-fruta{
+    width: 100%;
+    border-radius: 0.6rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/*=====================coluna direita======================= */
+.column-right{
+    background-color: white;
+    border-radius: 0.6rem;
+    display: inline-block;
+    margin-bottom: 1rem;  
+    margin-top: 1rem;
+    overflow-y: auto;
+    padding: .8rem;
+    width: 50rem;
+}
+.column-right p{
+    font-size: 1rem; 
+    padding: 5px;
+    text-align: justify;
+    color: #45474B;
+    letter-spacing: .5px;
+}
+
+.column-right a{
+    font-size: 1rem;
+    padding: 5px;
+    text-decoration: none;
+    color: #45474B;
+}
+.resultado-pesquisa h2{
+    letter-spacing:5px;
+    text-transform: uppercase;
+}
+
+/* .resultado-pesquisa{
+
+} */
+
+.resultado-pesquisa a:hover{
+    color: #339933;
+}
