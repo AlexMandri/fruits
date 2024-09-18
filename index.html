@@ -5,20 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>FRUTAS</title>
 </head>
 
 <body>
-    <nav>
-        <header>
+    <header>
+        <div class="container">
             <h1>FRUIT</h1>
-        </header>
-        <section class="menu">
-            <a href="#">LinkedIn</a>
-            <a href="#">Portfólio</a>
-            <a href="#">Git</a>
-        </section>
-    </nav>
+            <div class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">LinkedIn</a> </li>
+                        <li><a href="#">Portfólio</a></li>
+                        <li><a href="#">Git</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <main>
         <aside class="column-left">
             <div class="search">
@@ -29,7 +43,6 @@
             <picture class="fruit-img">
                 <img id="img-fruta" src="img/Maca.jpg">
             </picture>
-
         </aside>
 
         <!-- <section class="descricao" id="pesquisa"></section> -->
